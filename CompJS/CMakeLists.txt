@@ -17,6 +17,7 @@ add_executable (CompJS
 	"Reader.h"		"Reader.c"		"MainReader.c"
 )
 # Testing 
+# comment 2
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CompJS PROPERTY CXX_STANDARD 20)
